@@ -11,7 +11,7 @@ import Foundation
 class Config {
     
     func url() -> String{
-        return "https://news-at.zhihu.com/api/"
+        return "https://news-at.zhihu.com/api"
     }
     
 }

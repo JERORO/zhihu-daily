@@ -9,5 +9,6 @@ target '知乎日报' do
 
   pod 'FTIndicator'#弹窗
   pod 'Kingfisher'#网络图片
+  pod 'SwiftyJSON'
 
 end

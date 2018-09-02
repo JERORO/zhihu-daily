@@ -12,6 +12,7 @@
 		620AEF5F213C2711003A21F0 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620AEF5E213C2711003A21F0 /* Kingfisher.framework */; };
 		620AEF64213C2969003A21F0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEF63213C2969003A21F0 /* Request.swift */; };
 		620AEF67213C29DE003A21F0 /* public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEF66213C29DE003A21F0 /* public.swift */; };
+		620AEF6B213C3219003A21F0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620AEF6A213C3219003A21F0 /* SwiftyJSON.framework */; };
 		62369195213C2364004DE398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62369194213C2364004DE398 /* AppDelegate.swift */; };
 		62369197213C2364004DE398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62369196213C2364004DE398 /* ViewController.swift */; };
 		6236919A213C2364004DE398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62369198213C2364004DE398 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		620AEF5E213C2711003A21F0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		620AEF63213C2969003A21F0 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		620AEF66213C29DE003A21F0 /* public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = public.swift; sourceTree = "<group>"; };
+		620AEF6A213C3219003A21F0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62369191213C2364004DE398 /* 知乎日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "知乎日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62369194213C2364004DE398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62369196213C2364004DE398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620AEF6B213C3219003A21F0 /* SwiftyJSON.framework in Frameworks */,
 				620AEF5D213C2711003A21F0 /* FTIndicator.framework in Frameworks */,
 				620AEF5F213C2711003A21F0 /* Kingfisher.framework in Frameworks */,
 			);
@@ -56,6 +59,7 @@
 		2F4CFBC62899BB15EDD0E1E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				620AEF6A213C3219003A21F0 /* SwiftyJSON.framework */,
 				620AEF5C213C2711003A21F0 /* FTIndicator.framework */,
 				620AEF5E213C2711003A21F0 /* Kingfisher.framework */,
 				A91031068B8C6C72A8120524 /* Pods_____.framework */,
@@ -219,11 +223,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-知乎日报/Pods-知乎日报-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
