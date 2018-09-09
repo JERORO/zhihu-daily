@@ -26,12 +26,8 @@ class TopStoriesViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         viewInit()
-        
-
     }
-    
 
-    
     func viewInit() {
         
         let imageUrl = URL(string: imageUrlString)

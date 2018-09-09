@@ -20,6 +20,9 @@
 		6236919F213C2365004DE398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6236919E213C2365004DE398 /* Assets.xcassets */; };
 		623691A2213C2365004DE398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623691A0213C2365004DE398 /* LaunchScreen.storyboard */; };
 		6237EE092143DFEB00C44AFE /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6237EE082143DFEB00C44AFE /* MainModel.swift */; };
+		62681A3C2145173300CBF55C /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62681A3B2145173300CBF55C /* ContentTableViewCell.swift */; };
+		62681A4021451BF100CBF55C /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62681A3F21451BF100CBF55C /* NewsDetailsViewController.swift */; };
+		62681A4221451C2D00CBF55C /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62681A4121451C2D00CBF55C /* NewsModel.swift */; };
 		62CC64722143E37200BB80D9 /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC64712143E37200BB80D9 /* TopStoriesViewController.swift */; };
 		62CC64742143E65B00BB80D9 /* UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC64732143E65B00BB80D9 /* UIModel.swift */; };
 		62CC64772143F5D100BB80D9 /* NewsDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CC64762143F5D100BB80D9 /* NewsDetails.storyboard */; };
@@ -43,6 +46,9 @@
 		623691A1213C2365004DE398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		623691A3213C2365004DE398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6237EE082143DFEB00C44AFE /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		62681A3B2145173300CBF55C /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		62681A3F21451BF100CBF55C /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		62681A4121451C2D00CBF55C /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		62CC64712143E37200BB80D9 /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
 		62CC64732143E65B00BB80D9 /* UIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModel.swift; sourceTree = "<group>"; };
 		62CC64762143F5D100BB80D9 /* NewsDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsDetails.storyboard; sourceTree = "<group>"; };
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				6237EE082143DFEB00C44AFE /* MainModel.swift */,
+				62681A4121451C2D00CBF55C /* NewsModel.swift */,
 				620AEF63213C2969003A21F0 /* Request.swift */,
 				62CC64732143E65B00BB80D9 /* UIModel.swift */,
 			);
@@ -135,6 +142,7 @@
 			children = (
 				62369194213C2364004DE398 /* AppDelegate.swift */,
 				620AEF60213C2919003A21F0 /* Controller */,
+				62681A392145170000CBF55C /* View */,
 				620AEF61213C2928003A21F0 /* Model */,
 				620AEF65213C29C3003A21F0 /* Config */,
 				6236919E213C2365004DE398 /* Assets.xcassets */,
@@ -147,10 +155,27 @@
 			path = "知乎日报";
 			sourceTree = "<group>";
 		};
+		62681A392145170000CBF55C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62681A3A2145171400CBF55C /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62681A3A2145171400CBF55C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62681A3B2145173300CBF55C /* ContentTableViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		62CC64752143F54200BB80D9 /* NewsDetails */ = {
 			isa = PBXGroup;
 			children = (
 				62CC64762143F5D100BB80D9 /* NewsDetails.storyboard */,
+				62681A3F21451BF100CBF55C /* NewsDetailsViewController.swift */,
 			);
 			path = NewsDetails;
 			sourceTree = "<group>";
@@ -282,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62681A4221451C2D00CBF55C /* NewsModel.swift in Sources */,
+				62681A4021451BF100CBF55C /* NewsDetailsViewController.swift in Sources */,
 				620AEF67213C29DE003A21F0 /* public.swift in Sources */,
 				620AEF5B213C266C003A21F0 /* bridge.m in Sources */,
 				62369197213C2364004DE398 /* ViewController.swift in Sources */,
@@ -291,6 +318,7 @@
 				6236919D213C2364004DE398 /* ____.xcdatamodeld in Sources */,
 				62CC64722143E37200BB80D9 /* TopStoriesViewController.swift in Sources */,
 				62369195213C2364004DE398 /* AppDelegate.swift in Sources */,
+				62681A3C2145173300CBF55C /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,15 +464,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = UR6X4CRK5E;
 				INFOPLIST_FILE = "知乎日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jc4tf.zhihuribao.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jc4tf.zhihuribao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "efe8bff8-d741-4d95-ab82-721c5cb13e49";
+				PROVISIONING_PROFILE_SPECIFIER = "zhihuribao deve";
 				SWIFT_OBJC_BRIDGING_HEADER = "知乎日报/知乎日报-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -458,15 +489,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = UR6X4CRK5E;
 				INFOPLIST_FILE = "知乎日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jc4tf.zhihuribao.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jc4tf.zhihuribao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "736d0c25-6b7f-409d-8ba0-d498d0b4529b";
+				PROVISIONING_PROFILE_SPECIFIER = "zhihuribao store";
 				SWIFT_OBJC_BRIDGING_HEADER = "知乎日报/知乎日报-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
