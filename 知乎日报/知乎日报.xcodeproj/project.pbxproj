@@ -465,7 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR6X4CRK5E;
 				INFOPLIST_FILE = "知乎日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,8 +474,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jc4tf.zhihuribao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "efe8bff8-d741-4d95-ab82-721c5cb13e49";
-				PROVISIONING_PROFILE_SPECIFIER = "zhihuribao deve";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "知乎日报/知乎日报-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -489,8 +489,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR6X4CRK5E;
 				INFOPLIST_FILE = "知乎日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,8 +499,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jc4tf.zhihuribao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "736d0c25-6b7f-409d-8ba0-d498d0b4529b";
-				PROVISIONING_PROFILE_SPECIFIER = "zhihuribao store";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "知乎日报/知乎日报-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

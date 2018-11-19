@@ -26,7 +26,7 @@ class NewsDetailsViewController: UIViewController,WKUIDelegate,WKNavigationDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         webView.scrollView.delegate = self
         
         model.details(id: id, completion: { (status) in
